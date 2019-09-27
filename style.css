@@ -1,0 +1,75 @@
+
+
+body, html {
+  	width: 100%;
+  	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+  	background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.header {
+	position: absolute;
+	font-family: fantasy;
+	top:80px;
+  	
+}
+
+.header h1{
+	left:10%;
+	font-weight: bolder;
+	width: 420px;
+	font-size: 3vw;
+	padding: 20px;
+	border: 2px solid pink;
+	text-align: center;
+}
+
+.header p {
+	left:15%;
+	margin-top:70px;
+	border: none;
+	text-align: center;
+	font-size: 2.5vw;
+	color: #226666;
+	
+}
+.container .ul{
+	position: fixed;
+	top: 0px;
+	
+
+
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+	position: absolute;
+	right: 60%;
+	top: 400px;
+	background-color: #669999;
+	color: white;
+	font-size: 20px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
