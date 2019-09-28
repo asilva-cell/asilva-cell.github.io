@@ -54,7 +54,7 @@ a{
 	padding-top: 10%;
 }
 
-/* format for screen less than 400px*/
+/* format for screen less than 450px*/
 @media only screen and (max-device-width: 450px){
 	.container {
 		padding-right: 0%;
